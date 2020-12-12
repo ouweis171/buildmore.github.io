@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>build|||more</title>
+<link rel="icon" href="https://drive.google.com/file/d/198xwB6sevjUJnC0Dd3P2YoTWKUbWjIGZ/view?usp=sharing">
+    <style>
+    	a{color: white;text-decoration: none;font-size: 25px;display: inline-block;padding: 15px;}
+    	a:hover
+    	{
+    		color: black
+    		;text-decoration: none
+    		;font-size: 25px
+    		;display: inline-block
+    		;padding: 15px
+    		;background-color: white; 
+    	}
+
+    	nav{
+    		background-color:black;
+    		border: gray groove 20px;
+    	}
+    	input{
+    		background-color: black;
+    		color: white;
+    		border: gray;
+    		font-size: 20px;
+    	}
+    	
+    	#mine{
+    		display: none;
+    		background-color: lightyellow;
+    		text-align: left;
+    		margin-left: 850px;
+    	}
+    	
+    </style>
+</head>
+<body>
+<input id="search">
+<button onclick="show()">show</button><br>
+<nav>
+<a href="view-source:file:" target=_blank id="hid1"><div ><p id="se" >src</p></div></a><a href="https://drive.google.com/file/d/1PhzRVOlrusZ-tpnX_WUGrFwt2EIaC1dZ/view?usp=sharing" target=_blank id="hid2"> <div><p id="pt">my_project</p></div></a><a id ="hid3" href="https://drive.google.com/file/d/198xwB6sevjUJnC0Dd3P2YoTWKUbWjIGZ/view?usp=sharing" target=_blank> <div><p id="go">pictures</p></div></a><a id="hid4" href="#" style="margin-left: 850px;"> <div class="sh" onclick="def2()"><p id="con">contacts</p></div></a>
+</nav>
+<div class="hiden" id="mine"><p>phone_number:+213657023617<br>
+	facebook_page:ouweisSoftware.programming<br>
+	telegram:ouweis |Legend|<br>
+
+</p></div>
+<ul>
+	<h1>how do i work?</h1><br>
+<p> hello this is my web site from here you can get the information to cantact me ok<br>
+	<h2>python gui tkinter sqlite programming desktop //||// html css js web devloppment //||//</h2>
+
+</p>
+</ul>
+<script>
+        function show(){
+        	var inp=document.getElementById('search').value 
+        	var hid1=document.getElementById('hid1');
+        	var hid2=document.getElementById('hid2');
+        	var hid3=document.getElementById('hid3');
+
+        	a=document.getElementById('se').textContent
+        	a1=document.getElementById('se')
+
+        	b=document.getElementById('pt').textContent
+        	b2=document.getElementById('pt')
+
+        	c=document.getElementById('go').textContent
+        	c3=document.getElementById('go')
+
+        	var d=a.toUpperCase()
+        	var e=b.toUpperCase()
+        	var f=c.toUpperCase()
+        	var x=[d,e,f]
+        	var i;
+        	var gh=inp.toUpperCase()
+        	for(i of x){
+
+        		if(i===gh){
+        			if(d===i){
+        				hid2.style.display="none";
+        				hid1.style.display="block";
+        				hid3.style.display="none";
+        			}
+        			else if(e===i){
+        				hid1.style.display="none";
+        				hid3.style.display="none";
+        				hid2.style.display="block";
+
+        			}
+        			else if(f===i){
+        				hid2.style.display="none";
+        				hid1.style.display="none";
+        				hid3.style.display="block";
+        			}
+        			else{
+        				hid2.style.display="block";
+        				hid1.style.display="block";
+        				hid3.style.display="block";
+        			}
+        		}
+        	}
+        }
+        function def2(){
+        	var var1=document.getElementById('mine')
+        	if(mine.style.display==='none'){
+        		mine.style.display='block'
+        	}
+        	else {
+        		mine.style.display='none'
+        	}
+        }
+</script>
+</body>
+</html>
